@@ -425,7 +425,7 @@ nav ul li a {
 .subscription-section {
     text-align: center;
     padding: 50px 20px;
-    background-color: #111; /* Slightly lighter than footer */
+    background-color: #111; 
   }
   
   .subscription-section h2 {
@@ -531,7 +531,6 @@ nav ul li a {
 
 
 
-  /* medeia */
 
   @media (max-width: 480px) {
     header{
@@ -545,3 +544,86 @@ nav ul li a {
         font-size: 2rem;
     }
 }
+#contact {
+    padding: 60px 20px;
+    background: #1a1a2e;
+    font-family: 'Arial', sans-serif;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact button {
+    background-color: #00ffaf;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #00ffaf;
+}
+
+
