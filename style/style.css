@@ -122,7 +122,8 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    padding: 0 150px;
+    margin: 150px 0;
 }
 
 .logos img {
@@ -559,7 +560,10 @@ nav ul li a {
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-
+.text-logs{
+    padding-left: 40px;
+    max-width: 400px;
+}
 #contact h2 {
     font-size: 2.8rem;
     margin-bottom: 20px;
@@ -611,7 +615,7 @@ nav ul li a {
     resize: vertical;
 }
 
-#contact button {
+#contact .btn {
     background-color: #00ffaf;
     color: #fff;
     padding: 12px 25px;
@@ -622,7 +626,7 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-#contact button:hover {
+#contact .btn:hover {
     background-color: #00ffaf;
 }
 
